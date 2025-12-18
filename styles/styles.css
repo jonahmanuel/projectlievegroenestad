@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("../images/desktop.png");
-    background-color: aquamarine;
+    min-width: auto;
 }
  
 /*                               Header styles               */
@@ -207,7 +207,7 @@ footer {
 }
  
 /* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 550px) {
  
     /* Body styles */
     body {
